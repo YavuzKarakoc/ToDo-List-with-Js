@@ -1,0 +1,224 @@
+.backgroundimg{
+    background-image: url(./img/todo-bg.png);
+    width: 414px;
+    height: 700px;
+    border: 1px solid black;
+    display: flex;
+    
+    
+}
+
+.todo{
+    color: white;
+    margin-top: 36px;
+    margin-left: 34px;
+    position: absolute;
+    
+}
+
+.addbutton{
+    background-color: transparent;
+    border: none;
+    margin-left: 337px;
+    margin-top: 149px;
+    position: absolute;
+    
+}
+
+#todolist{
+    list-style-type: none;
+    width: 380px;
+    margin-top: 225px;
+    margin-left: 0px;
+    position: absolute;
+    height: 473px;
+    overflow: auto;
+    overflow-x: hidden;
+    
+    
+}
+
+#todolist>li{
+    height: 70px;
+    width: 100%;
+    margin-left: -34px;
+    background-color: white;
+    
+    
+}
+
+#todolist>li>div>img{
+    height: 21px;
+    width: 21 px;
+    margin-top: 5px;
+    margin-right: 2px;
+    
+}
+
+
+/* başlığın üstünü çizip  çizgiye detay verme */
+/* #title{
+    text-decoration: line-through;
+    text-decoration-thickness: 5px;
+    text-decoration-color: red;
+} */
+
+.form-check-input{
+    width: 21px;
+    height: 21px;
+    /* background-color: #8B00E1; */
+}
+
+.form-check.complete{
+    background-color: #ebe8ed;
+    transition: all 0.6s;
+}
+.form-check.complete .title{
+    text-decoration: line-through;
+}
+
+.form-check.complete .checkButton{
+    background-color:#9E00FF ;
+}
+
+
+
+#addDo{
+    width: 414px;
+    height: 298px;
+    border: 1px solid black;
+    position: absolute;
+    margin-top: 402px;
+    display: none;
+    background-color: white;
+    
+}
+
+#addTitle{
+    width: 367px;
+    height: 51px;
+    margin-left: 23px;
+    margin-top: 21px;
+}
+
+#addDescription{
+    width: 367px;
+    height: 121px;
+    margin-top: 18px;
+    margin-left: 23px;
+    
+}
+
+#buttonCreate{
+    width: 367px;
+    height: 53px;
+    margin-left: 23px;
+    margin-top: 18px;
+    background-color: #C361FF;
+    border: 2px solid #8B00E170;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;;
+    font-size: 20px;
+    
+    
+}
+
+#updateDo{
+    width: 414px;
+    height: 298px;
+    border: 1px solid black;
+    position: absolute;
+    margin-top: 402px;
+    display: none;
+    background-color: white;
+    
+}
+
+#updateTitle{
+    width: 367px;
+    height: 51px;
+    margin-left: 23px;
+    margin-top: 21px;
+}
+
+#updateDescription{
+    width: 367px;
+    height: 121px;
+    margin-top: 18px;
+    margin-left: 23px;
+    
+}
+
+#buttonUpdate{
+    width: 367px;
+    height: 53px;
+    margin-left: 23px;
+    margin-top: 18px;
+    background-color: #C361FF;
+    border: 2px solid #8B00E170;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;;
+    font-size: 20px;
+    
+    
+}
+
+
+.checkButton{
+    border: 1px solid black;
+   
+}
+
+.buttonDelete{
+    height: 25px;
+    width: 25px;
+    background-color:transparent;
+    border: none;
+    
+}
+
+#emptyError{
+    position: absolute;
+    width: inherit;
+    margin-top: 290px;
+    height: 160px;
+    text-align: center;
+    display: none;
+    border: 1px solid black;
+    z-index: 3;
+    background-color: #9E00FF;
+    border-radius: 10px;
+    color: white;
+}
+
+.resetBlock{
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    width: inherit;
+}
+.buttonReset{
+    background-color: transparent;
+}
+
+
+.resetBody{
+    position: absolute;
+    margin-top: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+    background-color: #d59afa;
+    display: none;
+    z-index: 5;
+    
+    
+    
+}
+
+.resetBody>button{
+    background-color: #9E00FF;
+    
+}
